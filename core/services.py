@@ -49,5 +49,8 @@ class DocumentService:
             return self.repo.search_document(tag,date)
 
 
+    def get_all_document(self):
+         return self.repo.get_all_document()
+
 
 
